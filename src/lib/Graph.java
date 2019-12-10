@@ -16,7 +16,7 @@ public class Graph {
         return (String) this.graphMap.keySet().toArray()[0];
     }
 
-    public ArrayList<String> getVertexAdjVertex(String label) {
+    public ArrayList<String> getVertexAdjVertices(String label) {
         return this.graphMap.get(label);
     }
 
